@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DWSwitchDemo.xcodeproj">
+      location = "self:DWSwitch.xcodeproj">
    </FileRef>
 </Workspace>

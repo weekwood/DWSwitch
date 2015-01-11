@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var ibSwitch: DWAnimationSwitch!
+    @IBOutlet var ibSwitch: DWSwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let mySwitch1 = DWAnimationSwitch(frame: CGRectMake(0, 0, 100, 50))
+        let mySwitch1 = DWSwitch(frame: CGRectMake(0, 0, 100, 50))
         mySwitch1.center = CGPointMake(self.view.bounds.size.width * 0.5, self.view.bounds.size.height * 0.5 - 80)
         mySwitch1.addTarget(self, action: "switchChanged:", forControlEvents: UIControlEvents.ValueChanged)
         mySwitch1.offImage = UIImage(named: "cross")
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         mySwitch1.isRounded = false;
         self.view.addSubview(mySwitch1)
     }
-    func switchChanged(sender: DWAnimationSwitch) {
+    func switchChanged(sender: DWSwitch) {
         println("Changed value to: \(sender.on)")
     }
     override func didReceiveMemoryWarning() {

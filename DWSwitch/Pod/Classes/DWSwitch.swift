@@ -1,7 +1,7 @@
 import UIKit
 import QuartzCore
 
-@objc class DWAnimationSwitch: UIControl {
+@objc class DWSwitch: UIControl {
     
     var on: Bool {
         get {

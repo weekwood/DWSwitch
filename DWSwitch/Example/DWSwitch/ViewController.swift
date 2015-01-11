@@ -9,9 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBOutlet var ibSwitch: DWSwitch!
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         

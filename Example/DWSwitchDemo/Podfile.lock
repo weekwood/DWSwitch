@@ -1,0 +1,10 @@
+PODS:
+  - DWSwitch (0.0.1)
+
+DEPENDENCIES:
+  - DWSwitch
+
+SPEC CHECKSUMS:
+  DWSwitch: 231f55c84b6630fce528bead2717f69683d6441a
+
+COCOAPODS: 0.36.0.beta.1

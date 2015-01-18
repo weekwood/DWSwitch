@@ -1,6 +1,0 @@
-framework module DWSwitch {
-  umbrella header "Pods-Tests-DWSwitch-umbrella.h"
-
-  export *
-  module * { export * }
-}

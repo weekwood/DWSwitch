@@ -1,1 +1,0 @@
-PODS_DWSWITCH_DWSWITCH_OTHER_LDFLAGS = -framework "QuartzCore" -framework "UIKit"

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DWSwitch"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "An animation switch."
   s.homepage         = "https://github.com/weekwood/DWSwitch"
   s.license          = 'MIT'

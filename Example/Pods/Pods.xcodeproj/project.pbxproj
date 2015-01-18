@@ -7,647 +7,533 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C61B16A8117A119EB729856 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A64FCE5B9AC31A9471FF115 /* Pods-Tests-dummy.m */; };
-		4283879AE54F9CECA6EFFDBE /* Pods-Tests-DWSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA62927FB5DC9F81E1C4E56 /* Pods-Tests-DWSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		520A916DB08551002224AA7E /* DWSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 941C6531D0B3E7A1DF6D1356 /* DWSwitch.bundle */; };
-		548F6EB01D03A5FFC069DAB9 /* DWSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8609D39242BE72150B19D4B1 /* DWSwitch.bundle */; };
-		64508C1A19112533C471D266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53775E13A4EF589F59A04E32 /* Foundation.framework */; };
-		6A9D4926902377915DEAEAD8 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4863ABAAF3F985DE6A5FE1A /* cross@2x.png */; };
-		7FC761AABF0B40E14C4D00D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53775E13A4EF589F59A04E32 /* Foundation.framework */; };
-		852B384C79592EE2065484E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53775E13A4EF589F59A04E32 /* Foundation.framework */; };
-		8A20A09EE0EE937AEBE1D91C /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF57D48F8085F3C421DE114 /* check.png */; };
-		9571BD9C58569E96E1A64B4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1804F17E7C1F19D43AD10A /* QuartzCore.framework */; };
-		AB6B3A6BBF8249F9343E158B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287019C73A96473F66653EDA /* UIKit.framework */; };
-		AC6AFC96A21A250A29907DC3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1804F17E7C1F19D43AD10A /* QuartzCore.framework */; };
-		B198E04852F3C20B591188E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287019C73A96473F66653EDA /* UIKit.framework */; };
-		C13D873F13B483383D4D79CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53775E13A4EF589F59A04E32 /* Foundation.framework */; };
-		C30B5561891D6302D4A2260A /* Pods-DWSwitch-DWSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E816E19F028E02C08A16CA2 /* Pods-DWSwitch-DWSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7471D85BC12C545BEE6F0E7 /* Pods-Tests-DWSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC71502F207762D2562CB57 /* Pods-Tests-DWSwitch-dummy.m */; };
-		C8C13739A766CF11C0C98AAB /* DWSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1C94A26419C485E61A3DA /* DWSwitch.swift */; };
-		D40202AF0ECC6B7B1C654CAD /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4863ABAAF3F985DE6A5FE1A /* cross@2x.png */; };
-		D4122E5629C8B4965138FD0D /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D136EC99C2BF0A3A1B305F8 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5C2D6C34EDED26A690CF659 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00D3F95A4490B4202BD3DE5 /* check@2x.png */; };
-		D79D1A2D3EAE7743CEBD63B1 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00D3F95A4490B4202BD3DE5 /* check@2x.png */; };
-		D9A066F8801210523F4A90A4 /* Pods-DWSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2633C2D30CD25C129230EB /* Pods-DWSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE8B9476E7843CDD61BA9C4B /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 900974B30B0E98A1AFEFDBB5 /* cross.png */; };
-		EC49256965A1BC81D1DD21D8 /* Pods-DWSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D8E21AE037865C0D16639 /* Pods-DWSwitch-dummy.m */; };
-		EF4AD3E4491CAA801BC537BD /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF57D48F8085F3C421DE114 /* check.png */; };
-		F0B1AD4CEE74DC81729F3701 /* DWSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1C94A26419C485E61A3DA /* DWSwitch.swift */; };
-		F155B5CB5CD8D926A8821A4B /* Pods-DWSwitch-DWSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6AF5D6151C607700BAFD0B /* Pods-DWSwitch-DWSwitch-dummy.m */; };
-		FE3F1A4FD43D1775020B15E9 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 900974B30B0E98A1AFEFDBB5 /* cross.png */; };
+		06404D8994930EAB9EFF669A /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FD59609938B130E4EDE601 /* check.png */; };
+		0AB334F104BAAD6A38952018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5F144934D3126B929C93EB /* Foundation.framework */; };
+		16F205CFAEFBE58AEEBEC349 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26693EA0188AA178E93EBF3B /* QuartzCore.framework */; };
+		40A5D531B1514AA8FC4149EC /* Pods-Tests-DWSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF363172CD5AECE0A4890B /* Pods-Tests-DWSwitch-dummy.m */; };
+		43661C44A525E45892B1E3FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5F144934D3126B929C93EB /* Foundation.framework */; };
+		47ADE69FCA423D6FA9FB7BB0 /* Pods-Tests-DWSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 742DEA7F70A023282BC1315E /* Pods-Tests-DWSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D6A5AD428E2AAED1B36659 /* Pods-DWSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0896BF3683A3AD626DB812 /* Pods-DWSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB61E43CE5E9A2514216618 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5190A40CF8BFFA084FD17B /* UIKit.framework */; };
+		6860445E27F164E2FB430C46 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB470EC58F98665998A1271 /* cross.png */; };
+		6B3CDC096F36330481EB505F /* DWSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7D8891A8D8932133DBE36 /* DWSwitch.swift */; };
+		76DA2CE9B760C1D387F11EA4 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E6BAFC30C7C27D3343F83 /* Pods-Tests-dummy.m */; };
+		80808DB7623FCBC1CDECDF96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5F144934D3126B929C93EB /* Foundation.framework */; };
+		8921EE2A2D31620E57ACF4BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5190A40CF8BFFA084FD17B /* UIKit.framework */; };
+		948800C4C350A6370669B3C5 /* Pods-DWSwitch-DWSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EBF5D492420A6110D3094F /* Pods-DWSwitch-DWSwitch-dummy.m */; };
+		9C5E94004AEB88234F28E955 /* DWSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7D8891A8D8932133DBE36 /* DWSwitch.swift */; };
+		A4F7B74E4E968EA8E34598A0 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F2D38F4D541536AFBC6A05 /* check@2x.png */; };
+		AC90638AC9208B4F7DD11B0A /* Pods-DWSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DB9681FE5FB3AD6291F73 /* Pods-DWSwitch-dummy.m */; };
+		AF86B27287E67E8765BF0557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5F144934D3126B929C93EB /* Foundation.framework */; };
+		BF0A29E36BCD806DDF4352BE /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7AFFB6FC98ABA5FA508AF2 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA3656AAE108147C8054A8C5 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB470EC58F98665998A1271 /* cross.png */; };
+		D749EEFF513289B168B8F44A /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F2D38F4D541536AFBC6A05 /* check@2x.png */; };
+		DB848322F702DBC0221D40C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26693EA0188AA178E93EBF3B /* QuartzCore.framework */; };
+		F32584D4862FD435104B3688 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FD59609938B130E4EDE601 /* check.png */; };
+		FCB13E6D0763D18CA25902D7 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BE1FAFD944A68F6C9FD621 /* cross@2x.png */; };
+		FDD1AC663445D336EFCD75F8 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BE1FAFD944A68F6C9FD621 /* cross@2x.png */; };
+		FEFE0B9BABB0E0C647FF8A8D /* Pods-DWSwitch-DWSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FA7F747E3487934F6DB473 /* Pods-DWSwitch-DWSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F09B79843FF74F5AA7F222B /* PBXContainerItemProxy */ = {
+		4AA159FBF418693C6875F24B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 131D13E55C8344D6F5197B88 /* Project object */;
+			containerPortal = A4F87434670A81BCCEEA4E43 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 03FC227C0F1863EABC8F3E66;
-			remoteInfo = "Pods-DWSwitch-DWSwitch-DWSwitch";
-		};
-		50256991623CD8F6EA5D0469 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 131D13E55C8344D6F5197B88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C3F85DE15D2403C601A16FD;
+			remoteGlobalIDString = 24D3CA3A92C260A6E6ECE709;
 			remoteInfo = "Pods-DWSwitch-DWSwitch";
 		};
-		51ABE59B97A8C981895151F7 /* PBXContainerItemProxy */ = {
+		638D384D600D0B55458EA56B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 131D13E55C8344D6F5197B88 /* Project object */;
+			containerPortal = A4F87434670A81BCCEEA4E43 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D230E4D6ADF7FAB5FBCA1062;
-			remoteInfo = "Pods-Tests-DWSwitch-DWSwitch";
-		};
-		606542F7B852680FCDF8ECDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 131D13E55C8344D6F5197B88 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FA7EE452CEC70594E712772;
+			remoteGlobalIDString = AB74DDF9DA63E01E5C639904;
 			remoteInfo = "Pods-Tests-DWSwitch";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		071E020C0935E203067D60EB /* Pods-Tests-DWSwitch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DWSwitch-Private.xcconfig"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-Private.xcconfig"; sourceTree = "<group>"; };
-		0868218BA2A77D2E9FDC7B72 /* DWSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ACBC98B751173F06EE70D63 /* Pods-DWSwitch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWSwitch-acknowledgements.plist"; sourceTree = "<group>"; };
-		1FA62927FB5DC9F81E1C4E56 /* Pods-Tests-DWSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DWSwitch-umbrella.h"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-umbrella.h"; sourceTree = "<group>"; };
-		2177DCCE660D09F073C09E1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Tests-DWSwitch/Info.plist"; sourceTree = "<group>"; };
-		287019C73A96473F66653EDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2A1804F17E7C1F19D43AD10A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		2FF57D48F8085F3C421DE114 /* check.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
-		310AC35C941A750976E54A19 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		336AFB428F190E49E22F10A0 /* Pods-DWSwitch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DWSwitch-frameworks.sh"; sourceTree = "<group>"; };
-		337A51A1C4BD0A71B19986E7 /* Pods-Tests-DWSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Tests-DWSwitch.modulemap"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch.modulemap"; sourceTree = "<group>"; };
-		3391ED8DB577BF7D1B123AFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		479093328EDE8F2C504D6F1E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4A2633C2D30CD25C129230EB /* Pods-DWSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWSwitch-umbrella.h"; sourceTree = "<group>"; };
-		52983D6DCAACB7D7135A5ADA /* DWSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53775E13A4EF589F59A04E32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5CC71502F207762D2562CB57 /* Pods-Tests-DWSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DWSwitch-dummy.m"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-dummy.m"; sourceTree = "<group>"; };
-		5D136EC99C2BF0A3A1B305F8 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
-		640D8E21AE037865C0D16639 /* Pods-DWSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DWSwitch-dummy.m"; sourceTree = "<group>"; };
-		6AB7471B0A3A47128E682A1F /* Pods-DWSwitch-DWSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DWSwitch-DWSwitch.modulemap"; sourceTree = "<group>"; };
-		6E816E19F028E02C08A16CA2 /* Pods-DWSwitch-DWSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWSwitch-DWSwitch-umbrella.h"; sourceTree = "<group>"; };
-		75B3C1D90ED55211E13666B3 /* Pods-DWSwitch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DWSwitch-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7641BEBA04E86C561E096DF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A5FA82D778C39CB7FD7B7FD /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
-		7A64FCE5B9AC31A9471FF115 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		7CECC160373EAA2523B7D170 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8068E4DFFE932D0356EC7D49 /* Pods-DWSwitch-DWSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWSwitch-DWSwitch.xcconfig"; sourceTree = "<group>"; };
-		8571436DD4A301C5145A249F /* Pods-Tests-DWSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DWSwitch.xcconfig"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch.xcconfig"; sourceTree = "<group>"; };
-		8609D39242BE72150B19D4B1 /* DWSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		898986439BA84747FFA6A094 /* Pods-Tests-DWSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DWSwitch-prefix.pch"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-prefix.pch"; sourceTree = "<group>"; };
-		8B4D6C13282E09C30EB57E23 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C3ED5B5984F9A226E0F566A /* Pods-DWSwitch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DWSwitch-resources.sh"; sourceTree = "<group>"; };
-		8C9367AE2DB0B40C01D06156 /* Pods-DWSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DWSwitch.modulemap"; sourceTree = "<group>"; };
-		8E6AF5D6151C607700BAFD0B /* Pods-DWSwitch-DWSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DWSwitch-DWSwitch-dummy.m"; sourceTree = "<group>"; };
-		900974B30B0E98A1AFEFDBB5 /* cross.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
-		941C6531D0B3E7A1DF6D1356 /* DWSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AB1C94A26419C485E61A3DA /* DWSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DWSwitch.swift; sourceTree = "<group>"; };
-		9FB682681ED6C38F010B6994 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		A4863ABAAF3F985DE6A5FE1A /* cross@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
-		A5BE7A4DCCBE75DBD5419CA9 /* Pods-DWSwitch-DWSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWSwitch-DWSwitch-prefix.pch"; sourceTree = "<group>"; };
-		A9F09BCED8269007AE725948 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE84DF38E37D51C2A08C21BD /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BB35062989F4411D3A761AA8 /* Pods_DWSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DWSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2AAE3D635D8D93E5B73C215 /* Pods-DWSwitch-DWSwitch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWSwitch-DWSwitch-Private.xcconfig"; sourceTree = "<group>"; };
-		C345AE9B1F0CF4E04F345AD5 /* Pods-DWSwitch-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWSwitch-environment.h"; sourceTree = "<group>"; };
-		CC8B72AAEB6FEEA5DD8F9E80 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D00D3F95A4490B4202BD3DE5 /* check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
-		D86B2A8D59094D379393F5EA /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		E62C39D2EE9951E5AECACC0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA1AD62022153340F2A2847D /* Pods-DWSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWSwitch.debug.xcconfig"; sourceTree = "<group>"; };
-		EBAD25C66DB1A9BA492A6D91 /* Pods-DWSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWSwitch.release.xcconfig"; sourceTree = "<group>"; };
+		020D07DD8E2EC265231BB0C4 /* Pods-DWSwitch-DWSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWSwitch-DWSwitch.xcconfig"; sourceTree = "<group>"; };
+		04364C1226B3181B7F3AC61B /* Pods-DWSwitch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DWSwitch-frameworks.sh"; sourceTree = "<group>"; };
+		0C027D9FF13162482057112E /* Pods-DWSwitch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DWSwitch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13D1894EF92170937D97EAE5 /* Pods-DWSwitch-DWSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DWSwitch-DWSwitch.modulemap"; sourceTree = "<group>"; };
+		19BE1FAFD944A68F6C9FD621 /* cross@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		1A0896BF3683A3AD626DB812 /* Pods-DWSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWSwitch-umbrella.h"; sourceTree = "<group>"; };
+		1FF776A985F0211769753543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26693EA0188AA178E93EBF3B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2BC350D9D38BCC94F9B676F2 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
+		3497FC098D815D478A84DB2C /* DWSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36183875FD3A10BA35D3F967 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A0962EEFB2E300E53D328BA /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F38505217910884B4990781 /* Pods-Tests-DWSwitch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DWSwitch-Private.xcconfig"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-Private.xcconfig"; sourceTree = "<group>"; };
+		5379CA3AB3674448842E1A49 /* Pods-DWSwitch-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWSwitch-environment.h"; sourceTree = "<group>"; };
+		59EBF5D492420A6110D3094F /* Pods-DWSwitch-DWSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DWSwitch-DWSwitch-dummy.m"; sourceTree = "<group>"; };
+		61BA16B58181D433A6571D3C /* Pods-Tests-DWSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-Tests-DWSwitch.modulemap"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch.modulemap"; sourceTree = "<group>"; };
+		63F2D38F4D541536AFBC6A05 /* check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		66385C02EBE446CFB9F3D81A /* Pods-DWSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWSwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		742DEA7F70A023282BC1315E /* Pods-Tests-DWSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DWSwitch-umbrella.h"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-umbrella.h"; sourceTree = "<group>"; };
+		789E6BAFC30C7C27D3343F83 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		8019DB1F420DF4D7DC980284 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		81E7D69D3BB98764B47A7ED0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8617F5827F3EC6E61DFB0B5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-Tests-DWSwitch/Info.plist"; sourceTree = "<group>"; };
+		8B5420F3FEBF14AF9D05E7B0 /* Pods-DWSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWSwitch.release.xcconfig"; sourceTree = "<group>"; };
+		90843C3345FEE4815C9A1AD3 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		94C7C43E8D6411CC20A59E7A /* Pods-DWSwitch-DWSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWSwitch-DWSwitch-prefix.pch"; sourceTree = "<group>"; };
+		963D00CE79760F8339E1E4B9 /* Pods_DWSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DWSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8B258BA472E31B8D5121EC /* Pods-DWSwitch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWSwitch-acknowledgements.plist"; sourceTree = "<group>"; };
+		9DDD582C6785DF04548BFAEC /* DWSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0B1C5179CF7EEA33B2EBAC /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		9E5F144934D3126B929C93EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9E9DB9681FE5FB3AD6291F73 /* Pods-DWSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DWSwitch-dummy.m"; sourceTree = "<group>"; };
+		9EA213DEAB58A84FC8622EEB /* Pods-DWSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DWSwitch.modulemap"; sourceTree = "<group>"; };
+		9F5F454C48DFD7CDCA286440 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8C7D8891A8D8932133DBE36 /* DWSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DWSwitch.swift; sourceTree = "<group>"; };
+		AA7AFFB6FC98ABA5FA508AF2 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
+		AF2353515956F877E8510F15 /* Pods-Tests-DWSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DWSwitch.xcconfig"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch.xcconfig"; sourceTree = "<group>"; };
+		B6A889FD686096E54E3E82E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5190A40CF8BFFA084FD17B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C23754EE80385839681E907E /* Pods-DWSwitch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DWSwitch-resources.sh"; sourceTree = "<group>"; };
+		C4FD59609938B130E4EDE601 /* check.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		C762433EC2F23F112C155D87 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEB470EC58F98665998A1271 /* cross.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		E88CF7FC2C129D6ED4A3AFA4 /* Pods-Tests-DWSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DWSwitch-prefix.pch"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-prefix.pch"; sourceTree = "<group>"; };
+		ECA567D9B57CDB77C3A30D07 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1AF363172CD5AECE0A4890B /* Pods-Tests-DWSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DWSwitch-dummy.m"; path = "../Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-dummy.m"; sourceTree = "<group>"; };
+		F1BDBE880592F9C2A6A77F0E /* Pods-DWSwitch-DWSwitch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWSwitch-DWSwitch-Private.xcconfig"; sourceTree = "<group>"; };
+		F1FA7F747E3487934F6DB473 /* Pods-DWSwitch-DWSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWSwitch-DWSwitch-umbrella.h"; sourceTree = "<group>"; };
+		F46ED853E403DBA86990CAF1 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0788A5148ADFD8029F843AC6 /* Frameworks */ = {
+		A098B028EC797E3322B39F7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FC761AABF0B40E14C4D00D0 /* Foundation.framework in Frameworks */,
-				9571BD9C58569E96E1A64B4F /* QuartzCore.framework in Frameworks */,
-				B198E04852F3C20B591188E8 /* UIKit.framework in Frameworks */,
+				0AB334F104BAAD6A38952018 /* Foundation.framework in Frameworks */,
+				16F205CFAEFBE58AEEBEC349 /* QuartzCore.framework in Frameworks */,
+				4AB61E43CE5E9A2514216618 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EA730C8B37C68FD7F26F91F /* Frameworks */ = {
+		AD6A180B79D005D604C4CE3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64508C1A19112533C471D266 /* Foundation.framework in Frameworks */,
+				43661C44A525E45892B1E3FA /* Foundation.framework in Frameworks */,
+				DB848322F702DBC0221D40C3 /* QuartzCore.framework in Frameworks */,
+				8921EE2A2D31620E57ACF4BE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79680BFA655FD17C3231AE62 /* Frameworks */ = {
+		D8177CA3CD0E8D2EAECCA88E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF86B27287E67E8765BF0557 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A45595EEDBEE6DDF1B6089A0 /* Frameworks */ = {
+		F389BB56CF0581D88B245E57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C13D873F13B483383D4D79CF /* Foundation.framework in Frameworks */,
-				AC6AFC96A21A250A29907DC3 /* QuartzCore.framework in Frameworks */,
-				AB6B3A6BBF8249F9343E158B /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABEEFBFE220B06A75FD2091B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				852B384C79592EE2065484E7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB36054160A1D15E58C495F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				80808DB7623FCBC1CDECDF96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D351F5C1F7D0D23255058FE /* iOS */ = {
+		32E16F855A26A37EF792CFF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53775E13A4EF589F59A04E32 /* Foundation.framework */,
-				2A1804F17E7C1F19D43AD10A /* QuartzCore.framework */,
-				287019C73A96473F66653EDA /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		0F3CED6D7F85F0B02E24218B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C0D3174642142A40E22B89EF /* Pod */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2C202B277AFF745DC7609C5E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9678DE69B201AE0F7E22C108 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		3113CDA9204944920C6C919D /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				2FF57D48F8085F3C421DE114 /* check.png */,
-				D00D3F95A4490B4202BD3DE5 /* check@2x.png */,
-				900974B30B0E98A1AFEFDBB5 /* cross.png */,
-				A4863ABAAF3F985DE6A5FE1A /* cross@2x.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		523689374BA6C3D268F1E48F = {
-			isa = PBXGroup;
-			children = (
-				479093328EDE8F2C504D6F1E /* Podfile */,
-				826B66A9457C594C9EF7F3AE /* Development Pods */,
-				78C40AFA7E149C2EA3E1E1A1 /* Frameworks */,
-				931754D3E9A4F3E60AF1FFB9 /* Products */,
-				9A31D5F02A2C577E8991B68B /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		78C40AFA7E149C2EA3E1E1A1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0D351F5C1F7D0D23255058FE /* iOS */,
+				4857AC931DABF3AEB628AA78 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		826B66A9457C594C9EF7F3AE /* Development Pods */ = {
+		3C9EFFB778A370B8077EFFBE /* Pods-DWSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				85E515D6CBFF7FB936EAD679 /* DWSwitch */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		85E515D6CBFF7FB936EAD679 /* DWSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				2C202B277AFF745DC7609C5E /* Pod */,
-				0F3CED6D7F85F0B02E24218B /* Resources */,
-				AC0E8E47F8392922CFD7B63A /* Support Files */,
-			);
-			name = DWSwitch;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		931754D3E9A4F3E60AF1FFB9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8609D39242BE72150B19D4B1 /* DWSwitch.bundle */,
-				941C6531D0B3E7A1DF6D1356 /* DWSwitch.bundle */,
-				0868218BA2A77D2E9FDC7B72 /* DWSwitch.framework */,
-				52983D6DCAACB7D7135A5ADA /* DWSwitch.framework */,
-				BB35062989F4411D3A761AA8 /* Pods_DWSwitch.framework */,
-				A9F09BCED8269007AE725948 /* Pods_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9678DE69B201AE0F7E22C108 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9AB1C94A26419C485E61A3DA /* DWSwitch.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		9A31D5F02A2C577E8991B68B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BD4819A27C9D230B10492297 /* Pods-DWSwitch */,
-				D230BEFA719A68D4AA195823 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AC0E8E47F8392922CFD7B63A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7641BEBA04E86C561E096DF9 /* Info.plist */,
-				2177DCCE660D09F073C09E1D /* Info.plist */,
-				6AB7471B0A3A47128E682A1F /* Pods-DWSwitch-DWSwitch.modulemap */,
-				8068E4DFFE932D0356EC7D49 /* Pods-DWSwitch-DWSwitch.xcconfig */,
-				C2AAE3D635D8D93E5B73C215 /* Pods-DWSwitch-DWSwitch-Private.xcconfig */,
-				8E6AF5D6151C607700BAFD0B /* Pods-DWSwitch-DWSwitch-dummy.m */,
-				A5BE7A4DCCBE75DBD5419CA9 /* Pods-DWSwitch-DWSwitch-prefix.pch */,
-				6E816E19F028E02C08A16CA2 /* Pods-DWSwitch-DWSwitch-umbrella.h */,
-				337A51A1C4BD0A71B19986E7 /* Pods-Tests-DWSwitch.modulemap */,
-				8571436DD4A301C5145A249F /* Pods-Tests-DWSwitch.xcconfig */,
-				071E020C0935E203067D60EB /* Pods-Tests-DWSwitch-Private.xcconfig */,
-				5CC71502F207762D2562CB57 /* Pods-Tests-DWSwitch-dummy.m */,
-				898986439BA84747FFA6A094 /* Pods-Tests-DWSwitch-prefix.pch */,
-				1FA62927FB5DC9F81E1C4E56 /* Pods-Tests-DWSwitch-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-DWSwitch-DWSwitch";
-			sourceTree = "<group>";
-		};
-		BD4819A27C9D230B10492297 /* Pods-DWSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				3391ED8DB577BF7D1B123AFC /* Info.plist */,
-				8C9367AE2DB0B40C01D06156 /* Pods-DWSwitch.modulemap */,
-				75B3C1D90ED55211E13666B3 /* Pods-DWSwitch-acknowledgements.markdown */,
-				0ACBC98B751173F06EE70D63 /* Pods-DWSwitch-acknowledgements.plist */,
-				640D8E21AE037865C0D16639 /* Pods-DWSwitch-dummy.m */,
-				C345AE9B1F0CF4E04F345AD5 /* Pods-DWSwitch-environment.h */,
-				336AFB428F190E49E22F10A0 /* Pods-DWSwitch-frameworks.sh */,
-				8C3ED5B5984F9A226E0F566A /* Pods-DWSwitch-resources.sh */,
-				4A2633C2D30CD25C129230EB /* Pods-DWSwitch-umbrella.h */,
-				EA1AD62022153340F2A2847D /* Pods-DWSwitch.debug.xcconfig */,
-				EBAD25C66DB1A9BA492A6D91 /* Pods-DWSwitch.release.xcconfig */,
+				81E7D69D3BB98764B47A7ED0 /* Info.plist */,
+				9EA213DEAB58A84FC8622EEB /* Pods-DWSwitch.modulemap */,
+				0C027D9FF13162482057112E /* Pods-DWSwitch-acknowledgements.markdown */,
+				9B8B258BA472E31B8D5121EC /* Pods-DWSwitch-acknowledgements.plist */,
+				9E9DB9681FE5FB3AD6291F73 /* Pods-DWSwitch-dummy.m */,
+				5379CA3AB3674448842E1A49 /* Pods-DWSwitch-environment.h */,
+				04364C1226B3181B7F3AC61B /* Pods-DWSwitch-frameworks.sh */,
+				C23754EE80385839681E907E /* Pods-DWSwitch-resources.sh */,
+				1A0896BF3683A3AD626DB812 /* Pods-DWSwitch-umbrella.h */,
+				66385C02EBE446CFB9F3D81A /* Pods-DWSwitch.debug.xcconfig */,
+				8B5420F3FEBF14AF9D05E7B0 /* Pods-DWSwitch.release.xcconfig */,
 			);
 			name = "Pods-DWSwitch";
 			path = "Target Support Files/Pods-DWSwitch";
 			sourceTree = "<group>";
 		};
-		C0D3174642142A40E22B89EF /* Pod */ = {
+		4857AC931DABF3AEB628AA78 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3113CDA9204944920C6C919D /* Assets */,
+				9E5F144934D3126B929C93EB /* Foundation.framework */,
+				26693EA0188AA178E93EBF3B /* QuartzCore.framework */,
+				BF5190A40CF8BFFA084FD17B /* UIKit.framework */,
 			);
-			path = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		D230BEFA719A68D4AA195823 /* Pods-Tests */ = {
+		4E460382CB4D711B0E146317 = {
 			isa = PBXGroup;
 			children = (
-				E62C39D2EE9951E5AECACC0B /* Info.plist */,
-				7A5FA82D778C39CB7FD7B7FD /* Pods-Tests.modulemap */,
-				8B4D6C13282E09C30EB57E23 /* Pods-Tests-acknowledgements.markdown */,
-				310AC35C941A750976E54A19 /* Pods-Tests-acknowledgements.plist */,
-				7A64FCE5B9AC31A9471FF115 /* Pods-Tests-dummy.m */,
-				D86B2A8D59094D379393F5EA /* Pods-Tests-environment.h */,
-				AE84DF38E37D51C2A08C21BD /* Pods-Tests-frameworks.sh */,
-				9FB682681ED6C38F010B6994 /* Pods-Tests-resources.sh */,
-				5D136EC99C2BF0A3A1B305F8 /* Pods-Tests-umbrella.h */,
-				7CECC160373EAA2523B7D170 /* Pods-Tests.debug.xcconfig */,
-				CC8B72AAEB6FEEA5DD8F9E80 /* Pods-Tests.release.xcconfig */,
+				9F5F454C48DFD7CDCA286440 /* Podfile */,
+				B0A7A90A8AD442891DCEE09C /* Development Pods */,
+				32E16F855A26A37EF792CFF7 /* Frameworks */,
+				AE5B25333BEA71A0EECF751F /* Products */,
+				4F2990E0247DF42687D70428 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4F2990E0247DF42687D70428 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EFFB778A370B8077EFFBE /* Pods-DWSwitch */,
+				9CB8B0B8B12B219641AAA464 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C49B77D4C843D443CFBD988 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8C7D8891A8D8932133DBE36 /* DWSwitch.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9CB8B0B8B12B219641AAA464 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A889FD686096E54E3E82E8 /* Info.plist */,
+				2BC350D9D38BCC94F9B676F2 /* Pods-Tests.modulemap */,
+				ECA567D9B57CDB77C3A30D07 /* Pods-Tests-acknowledgements.markdown */,
+				C762433EC2F23F112C155D87 /* Pods-Tests-acknowledgements.plist */,
+				789E6BAFC30C7C27D3343F83 /* Pods-Tests-dummy.m */,
+				9E0B1C5179CF7EEA33B2EBAC /* Pods-Tests-environment.h */,
+				90843C3345FEE4815C9A1AD3 /* Pods-Tests-frameworks.sh */,
+				8019DB1F420DF4D7DC980284 /* Pods-Tests-resources.sh */,
+				AA7AFFB6FC98ABA5FA508AF2 /* Pods-Tests-umbrella.h */,
+				F46ED853E403DBA86990CAF1 /* Pods-Tests.debug.xcconfig */,
+				36183875FD3A10BA35D3F967 /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
+		AE5B25333BEA71A0EECF751F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3497FC098D815D478A84DB2C /* DWSwitch.framework */,
+				9DDD582C6785DF04548BFAEC /* DWSwitch.framework */,
+				963D00CE79760F8339E1E4B9 /* Pods_DWSwitch.framework */,
+				4A0962EEFB2E300E53D328BA /* Pods_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A7A90A8AD442891DCEE09C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2B1CAD4963A6602A3BE02DB /* DWSwitch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B16B2E4F2B98584F68C064BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F66D722E7BA279632B6502DE /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B881931F73ABE05BD2D381BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B16B2E4F2B98584F68C064BC /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C2B1CAD4963A6602A3BE02DB /* DWSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				DBE825580C6EAABEBEC1C599 /* Pod */,
+				B881931F73ABE05BD2D381BF /* Resources */,
+				C78F479F4BD17267B9D7C088 /* Support Files */,
+			);
+			name = DWSwitch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C78F479F4BD17267B9D7C088 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF776A985F0211769753543 /* Info.plist */,
+				8617F5827F3EC6E61DFB0B5C /* Info.plist */,
+				13D1894EF92170937D97EAE5 /* Pods-DWSwitch-DWSwitch.modulemap */,
+				020D07DD8E2EC265231BB0C4 /* Pods-DWSwitch-DWSwitch.xcconfig */,
+				F1BDBE880592F9C2A6A77F0E /* Pods-DWSwitch-DWSwitch-Private.xcconfig */,
+				59EBF5D492420A6110D3094F /* Pods-DWSwitch-DWSwitch-dummy.m */,
+				94C7C43E8D6411CC20A59E7A /* Pods-DWSwitch-DWSwitch-prefix.pch */,
+				F1FA7F747E3487934F6DB473 /* Pods-DWSwitch-DWSwitch-umbrella.h */,
+				61BA16B58181D433A6571D3C /* Pods-Tests-DWSwitch.modulemap */,
+				AF2353515956F877E8510F15 /* Pods-Tests-DWSwitch.xcconfig */,
+				4F38505217910884B4990781 /* Pods-Tests-DWSwitch-Private.xcconfig */,
+				F1AF363172CD5AECE0A4890B /* Pods-Tests-DWSwitch-dummy.m */,
+				E88CF7FC2C129D6ED4A3AFA4 /* Pods-Tests-DWSwitch-prefix.pch */,
+				742DEA7F70A023282BC1315E /* Pods-Tests-DWSwitch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DWSwitch-DWSwitch";
+			sourceTree = "<group>";
+		};
+		DBE825580C6EAABEBEC1C599 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C49B77D4C843D443CFBD988 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F66D722E7BA279632B6502DE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD59609938B130E4EDE601 /* check.png */,
+				63F2D38F4D541536AFBC6A05 /* check@2x.png */,
+				CEB470EC58F98665998A1271 /* cross.png */,
+				19BE1FAFD944A68F6C9FD621 /* cross@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		09F8CED8E0E20D83EC13582B /* Headers */ = {
+		26A8D5ACC7E7145CAEB85418 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A066F8801210523F4A90A4 /* Pods-DWSwitch-umbrella.h in Headers */,
+				47ADE69FCA423D6FA9FB7BB0 /* Pods-Tests-DWSwitch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A67EC9296BF3A694AA5C605 /* Headers */ = {
+		414CCA877124D4566236D1FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4122E5629C8B4965138FD0D /* Pods-Tests-umbrella.h in Headers */,
+				49D6A5AD428E2AAED1B36659 /* Pods-DWSwitch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6A73CC909AA5688D3E01AB1 /* Headers */ = {
+		B919D6321EFFF24D095B8A35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30B5561891D6302D4A2260A /* Pods-DWSwitch-DWSwitch-umbrella.h in Headers */,
+				BF0A29E36BCD806DDF4352BE /* Pods-Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D415EBB3A0CF0F8C0EB8DD6B /* Headers */ = {
+		C65681A85590ACED0B3A7731 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4283879AE54F9CECA6EFFDBE /* Pods-Tests-DWSwitch-umbrella.h in Headers */,
+				FEFE0B9BABB0E0C647FF8A8D /* Pods-DWSwitch-DWSwitch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		03FC227C0F1863EABC8F3E66 /* Pods-DWSwitch-DWSwitch-DWSwitch */ = {
+		1FCF9E6879317F82696D1F0B /* Pods-DWSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD0884A7175D97D84690B609 /* Build configuration list for PBXNativeTarget "Pods-DWSwitch-DWSwitch-DWSwitch" */;
+			buildConfigurationList = 69123A64DF359B5F6505B99E /* Build configuration list for PBXNativeTarget "Pods-DWSwitch" */;
 			buildPhases = (
-				7B688338CDD2D24BAD0F4889 /* Sources */,
-				79680BFA655FD17C3231AE62 /* Frameworks */,
-				B0F29BABD0D610DAF649D861 /* Resources */,
+				E818FACD3FDC04B4D63E86D1 /* Sources */,
+				D8177CA3CD0E8D2EAECCA88E /* Frameworks */,
+				414CCA877124D4566236D1FD /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-DWSwitch-DWSwitch-DWSwitch";
-			productName = "Pods-DWSwitch-DWSwitch-DWSwitch";
-			productReference = 941C6531D0B3E7A1DF6D1356 /* DWSwitch.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		5FA7EE452CEC70594E712772 /* Pods-Tests-DWSwitch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A44C4EDE1B690620C80E1658 /* Build configuration list for PBXNativeTarget "Pods-Tests-DWSwitch" */;
-			buildPhases = (
-				728F31B46751884835D63ADA /* Sources */,
-				0788A5148ADFD8029F843AC6 /* Frameworks */,
-				05C3DAB7AAAFC9F6ACCAB949 /* Resources */,
-				D415EBB3A0CF0F8C0EB8DD6B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				24451F10382138D987F3E3D3 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-DWSwitch";
-			productName = "Pods-Tests-DWSwitch";
-			productReference = 52983D6DCAACB7D7135A5ADA /* DWSwitch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7E0717A81663465FC0B320ED /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CD82E0B7179F16F191AB889 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				6E5003369B8B4B9C5CA9DB36 /* Sources */,
-				0EA730C8B37C68FD7F26F91F /* Frameworks */,
-				1A67EC9296BF3A694AA5C605 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E02CAC960DED33AA7836AD76 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = A9F09BCED8269007AE725948 /* Pods_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9C3F85DE15D2403C601A16FD /* Pods-DWSwitch-DWSwitch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A61CCE35BD242E474BB1910 /* Build configuration list for PBXNativeTarget "Pods-DWSwitch-DWSwitch" */;
-			buildPhases = (
-				7F4DF17DEE83319458AFCBE6 /* Sources */,
-				A45595EEDBEE6DDF1B6089A0 /* Frameworks */,
-				01DD73DEBE25D90CE81E8A36 /* Resources */,
-				C6A73CC909AA5688D3E01AB1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1D6F6E2D0CEFCEC7CA88E3C9 /* PBXTargetDependency */,
-			);
-			name = "Pods-DWSwitch-DWSwitch";
-			productName = "Pods-DWSwitch-DWSwitch";
-			productReference = 0868218BA2A77D2E9FDC7B72 /* DWSwitch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C9740A513E48A56EEA44C0C6 /* Pods-DWSwitch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 74732F4602B3E564C1875D6E /* Build configuration list for PBXNativeTarget "Pods-DWSwitch" */;
-			buildPhases = (
-				97B44533FFB72237EE05FD73 /* Sources */,
-				ABEEFBFE220B06A75FD2091B /* Frameworks */,
-				09F8CED8E0E20D83EC13582B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62E95A05A6A1772C2B1AE4CA /* PBXTargetDependency */,
+				9376588DCC5522DD177489F5 /* PBXTargetDependency */,
 			);
 			name = "Pods-DWSwitch";
 			productName = "Pods-DWSwitch";
-			productReference = BB35062989F4411D3A761AA8 /* Pods_DWSwitch.framework */;
+			productReference = 963D00CE79760F8339E1E4B9 /* Pods_DWSwitch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D230E4D6ADF7FAB5FBCA1062 /* Pods-Tests-DWSwitch-DWSwitch */ = {
+		203E8E5E52622D7588953AF2 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 196C48ED846766BD8995578B /* Build configuration list for PBXNativeTarget "Pods-Tests-DWSwitch-DWSwitch" */;
+			buildConfigurationList = 823C91ADDD663E87A6CF49BA /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				809278794C178A5EDE47C8C2 /* Sources */,
-				FB36054160A1D15E58C495F3 /* Frameworks */,
-				01A4394EFC7D80FF184FA111 /* Resources */,
+				6AED1A48C00AB48BD76343B4 /* Sources */,
+				F389BB56CF0581D88B245E57 /* Frameworks */,
+				B919D6321EFFF24D095B8A35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8B55E2439461A714575423 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 4A0962EEFB2E300E53D328BA /* Pods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24D3CA3A92C260A6E6ECE709 /* Pods-DWSwitch-DWSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F938E2A6F5BF7683DFBEF9 /* Build configuration list for PBXNativeTarget "Pods-DWSwitch-DWSwitch" */;
+			buildPhases = (
+				109E203309F8F34A1219B608 /* Sources */,
+				A098B028EC797E3322B39F7B /* Frameworks */,
+				2A2C9835ED194011D76D32FF /* Resources */,
+				C65681A85590ACED0B3A7731 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Tests-DWSwitch-DWSwitch";
-			productName = "Pods-Tests-DWSwitch-DWSwitch";
-			productReference = 8609D39242BE72150B19D4B1 /* DWSwitch.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-DWSwitch-DWSwitch";
+			productName = "Pods-DWSwitch-DWSwitch";
+			productReference = 3497FC098D815D478A84DB2C /* DWSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB74DDF9DA63E01E5C639904 /* Pods-Tests-DWSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCBAAEFE4A225C8FBC04A8D /* Build configuration list for PBXNativeTarget "Pods-Tests-DWSwitch" */;
+			buildPhases = (
+				AF7C8725E5ED42E5C75720F8 /* Sources */,
+				AD6A180B79D005D604C4CE3F /* Frameworks */,
+				2F70E4748E664E49129676A4 /* Resources */,
+				26A8D5ACC7E7145CAEB85418 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-DWSwitch";
+			productName = "Pods-Tests-DWSwitch";
+			productReference = 9DDD582C6785DF04548BFAEC /* DWSwitch.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		131D13E55C8344D6F5197B88 /* Project object */ = {
+		A4F87434670A81BCCEEA4E43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = CB5C490083A95B6F15832A9E /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = E5E86E84A17A7F4ADC5158F0 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 523689374BA6C3D268F1E48F;
-			productRefGroup = 931754D3E9A4F3E60AF1FFB9 /* Products */;
+			mainGroup = 4E460382CB4D711B0E146317;
+			productRefGroup = AE5B25333BEA71A0EECF751F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9740A513E48A56EEA44C0C6 /* Pods-DWSwitch */,
-				9C3F85DE15D2403C601A16FD /* Pods-DWSwitch-DWSwitch */,
-				03FC227C0F1863EABC8F3E66 /* Pods-DWSwitch-DWSwitch-DWSwitch */,
-				7E0717A81663465FC0B320ED /* Pods-Tests */,
-				5FA7EE452CEC70594E712772 /* Pods-Tests-DWSwitch */,
-				D230E4D6ADF7FAB5FBCA1062 /* Pods-Tests-DWSwitch-DWSwitch */,
+				1FCF9E6879317F82696D1F0B /* Pods-DWSwitch */,
+				24D3CA3A92C260A6E6ECE709 /* Pods-DWSwitch-DWSwitch */,
+				203E8E5E52622D7588953AF2 /* Pods-Tests */,
+				AB74DDF9DA63E01E5C639904 /* Pods-Tests-DWSwitch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01A4394EFC7D80FF184FA111 /* Resources */ = {
+		2A2C9835ED194011D76D32FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4AD3E4491CAA801BC537BD /* check.png in Resources */,
-				D5C2D6C34EDED26A690CF659 /* check@2x.png in Resources */,
-				DE8B9476E7843CDD61BA9C4B /* cross.png in Resources */,
-				D40202AF0ECC6B7B1C654CAD /* cross@2x.png in Resources */,
+				06404D8994930EAB9EFF669A /* check.png in Resources */,
+				D749EEFF513289B168B8F44A /* check@2x.png in Resources */,
+				6860445E27F164E2FB430C46 /* cross.png in Resources */,
+				FDD1AC663445D336EFCD75F8 /* cross@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01DD73DEBE25D90CE81E8A36 /* Resources */ = {
+		2F70E4748E664E49129676A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520A916DB08551002224AA7E /* DWSwitch.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		05C3DAB7AAAFC9F6ACCAB949 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				548F6EB01D03A5FFC069DAB9 /* DWSwitch.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0F29BABD0D610DAF649D861 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A20A09EE0EE937AEBE1D91C /* check.png in Resources */,
-				D79D1A2D3EAE7743CEBD63B1 /* check@2x.png in Resources */,
-				FE3F1A4FD43D1775020B15E9 /* cross.png in Resources */,
-				6A9D4926902377915DEAEAD8 /* cross@2x.png in Resources */,
+				F32584D4862FD435104B3688 /* check.png in Resources */,
+				A4F7B74E4E968EA8E34598A0 /* check@2x.png in Resources */,
+				CA3656AAE108147C8054A8C5 /* cross.png in Resources */,
+				FCB13E6D0763D18CA25902D7 /* cross@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E5003369B8B4B9C5CA9DB36 /* Sources */ = {
+		109E203309F8F34A1219B608 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C61B16A8117A119EB729856 /* Pods-Tests-dummy.m in Sources */,
+				9C5E94004AEB88234F28E955 /* DWSwitch.swift in Sources */,
+				948800C4C350A6370669B3C5 /* Pods-DWSwitch-DWSwitch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		728F31B46751884835D63ADA /* Sources */ = {
+		6AED1A48C00AB48BD76343B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0B1AD4CEE74DC81729F3701 /* DWSwitch.swift in Sources */,
-				C7471D85BC12C545BEE6F0E7 /* Pods-Tests-DWSwitch-dummy.m in Sources */,
+				76DA2CE9B760C1D387F11EA4 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B688338CDD2D24BAD0F4889 /* Sources */ = {
+		AF7C8725E5ED42E5C75720F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3CDC096F36330481EB505F /* DWSwitch.swift in Sources */,
+				40A5D531B1514AA8FC4149EC /* Pods-Tests-DWSwitch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F4DF17DEE83319458AFCBE6 /* Sources */ = {
+		E818FACD3FDC04B4D63E86D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C13739A766CF11C0C98AAB /* DWSwitch.swift in Sources */,
-				F155B5CB5CD8D926A8821A4B /* Pods-DWSwitch-DWSwitch-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		809278794C178A5EDE47C8C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		97B44533FFB72237EE05FD73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC49256965A1BC81D1DD21D8 /* Pods-DWSwitch-dummy.m in Sources */,
+				AC90638AC9208B4F7DD11B0A /* Pods-DWSwitch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D6F6E2D0CEFCEC7CA88E3C9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DWSwitch-DWSwitch-DWSwitch";
-			target = 03FC227C0F1863EABC8F3E66 /* Pods-DWSwitch-DWSwitch-DWSwitch */;
-			targetProxy = 2F09B79843FF74F5AA7F222B /* PBXContainerItemProxy */;
-		};
-		24451F10382138D987F3E3D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-DWSwitch-DWSwitch";
-			target = D230E4D6ADF7FAB5FBCA1062 /* Pods-Tests-DWSwitch-DWSwitch */;
-			targetProxy = 51ABE59B97A8C981895151F7 /* PBXContainerItemProxy */;
-		};
-		62E95A05A6A1772C2B1AE4CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DWSwitch-DWSwitch";
-			target = 9C3F85DE15D2403C601A16FD /* Pods-DWSwitch-DWSwitch */;
-			targetProxy = 50256991623CD8F6EA5D0469 /* PBXContainerItemProxy */;
-		};
-		E02CAC960DED33AA7836AD76 /* PBXTargetDependency */ = {
+		2C8B55E2439461A714575423 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-DWSwitch";
-			target = 5FA7EE452CEC70594E712772 /* Pods-Tests-DWSwitch */;
-			targetProxy = 606542F7B852680FCDF8ECDC /* PBXContainerItemProxy */;
+			target = AB74DDF9DA63E01E5C639904 /* Pods-Tests-DWSwitch */;
+			targetProxy = 638D384D600D0B55458EA56B /* PBXContainerItemProxy */;
+		};
+		9376588DCC5522DD177489F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DWSwitch-DWSwitch";
+			target = 24D3CA3A92C260A6E6ECE709 /* Pods-DWSwitch-DWSwitch */;
+			targetProxy = 4AA159FBF418693C6875F24B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		29E0148177B2074B3048CE66 /* Release */ = {
+		25A1EA32D8C4EC868A31FB0C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBAD25C66DB1A9BA492A6D91 /* Pods-DWSwitch.release.xcconfig */;
+			baseConfigurationReference = 66385C02EBE446CFB9F3D81A /* Pods-DWSwitch.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -661,7 +547,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-DWSwitch/Pods-DWSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -672,11 +558,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		4ACA405C39E7EAE4AAF194F6 /* Release */ = {
+		29532E39A9981C2CF9BA1E0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 071E020C0935E203067D60EB /* Pods-Tests-DWSwitch-Private.xcconfig */;
+			baseConfigurationReference = 4F38505217910884B4990781 /* Pods-Tests-DWSwitch-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -701,7 +587,7 @@
 			};
 			name = Release;
 		};
-		715DC91993AC958337678BAE /* Debug */ = {
+		533336332B6749E88B2CFA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -739,9 +625,9 @@
 			};
 			name = Debug;
 		};
-		7352FBE9252270EF6C41234C /* Debug */ = {
+		599B996FCEF27A66FD6A9CE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2AAE3D635D8D93E5B73C215 /* Pods-DWSwitch-DWSwitch-Private.xcconfig */;
+			baseConfigurationReference = 4F38505217910884B4990781 /* Pods-Tests-DWSwitch-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -750,12 +636,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-DWSwitch-DWSwitch/Pods-DWSwitch-DWSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-DWSwitch-DWSwitch/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-DWSwitch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-DWSwitch-DWSwitch/Pods-DWSwitch-DWSwitch.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-DWSwitch/Pods-Tests-DWSwitch.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = DWSwitch;
 				SDKROOT = iphoneos;
@@ -766,19 +652,7 @@
 			};
 			name = Debug;
 		};
-		751364ABADF0194B8659478E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DWSwitch";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DWSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		800C3D9A449A36B8C9946ACE /* Release */ = {
+		5D3C6E635989B2057FE490E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -811,72 +685,9 @@
 			};
 			name = Release;
 		};
-		919AFCD3E58187F379BB14B9 /* Release */ = {
+		A95CDDFE945CB5DF718E112C /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DWSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B58E1DB9BFDBB4F5F35183FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 071E020C0935E203067D60EB /* Pods-Tests-DWSwitch-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DWSwitch/Pods-Tests-DWSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests-DWSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests-DWSwitch/Pods-Tests-DWSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DWSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B83FE45EF5AA491D69C7CC7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DWSwitch";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DWSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C2BADE96F1A9C455D4D805EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DWSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C4C2D997C682D0CCAE4B77B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC8B72AAEB6FEEA5DD8F9E80 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 36183875FD3A10BA35D3F967 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -903,67 +714,9 @@
 			};
 			name = Release;
 		};
-		C659CDC7CCF2180E0DACE12E /* Debug */ = {
+		AC78A93A63BEA53EA1254EBA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CECC160373EAA2523B7D170 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D813532CBC25C5E708C13A21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA1AD62022153340F2A2847D /* Pods-DWSwitch.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DWSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-DWSwitch/Pods-DWSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_DWSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DA428874B8AFCD6C8AA1E710 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2AAE3D635D8D93E5B73C215 /* Pods-DWSwitch-DWSwitch-Private.xcconfig */;
+			baseConfigurationReference = F1BDBE880592F9C2A6A77F0E /* Pods-DWSwitch-DWSwitch-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -988,73 +741,140 @@
 			};
 			name = Release;
 		};
+		B8CEF07063D6E7F95ED7D146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46ED853E403DBA86990CAF1 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C18BAAAD9F353378ED71D801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5420F3FEBF14AF9D05E7B0 /* Pods-DWSwitch.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DWSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DWSwitch/Pods-DWSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DWSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC3C32CE603F5FA7F684CFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1BDBE880592F9C2A6A77F0E /* Pods-DWSwitch-DWSwitch-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DWSwitch-DWSwitch/Pods-DWSwitch-DWSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DWSwitch-DWSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DWSwitch-DWSwitch/Pods-DWSwitch-DWSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DWSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		196C48ED846766BD8995578B /* Build configuration list for PBXNativeTarget "Pods-Tests-DWSwitch-DWSwitch" */ = {
+		69123A64DF359B5F6505B99E /* Build configuration list for PBXNativeTarget "Pods-DWSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2BADE96F1A9C455D4D805EE /* Debug */,
-				919AFCD3E58187F379BB14B9 /* Release */,
+				25A1EA32D8C4EC868A31FB0C /* Debug */,
+				C18BAAAD9F353378ED71D801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CD82E0B7179F16F191AB889 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		823C91ADDD663E87A6CF49BA /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C659CDC7CCF2180E0DACE12E /* Debug */,
-				C4C2D997C682D0CCAE4B77B6 /* Release */,
+				B8CEF07063D6E7F95ED7D146 /* Debug */,
+				A95CDDFE945CB5DF718E112C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A61CCE35BD242E474BB1910 /* Build configuration list for PBXNativeTarget "Pods-DWSwitch-DWSwitch" */ = {
+		E5E86E84A17A7F4ADC5158F0 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7352FBE9252270EF6C41234C /* Debug */,
-				DA428874B8AFCD6C8AA1E710 /* Release */,
+				533336332B6749E88B2CFA6D /* Debug */,
+				5D3C6E635989B2057FE490E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74732F4602B3E564C1875D6E /* Build configuration list for PBXNativeTarget "Pods-DWSwitch" */ = {
+		EBCBAAEFE4A225C8FBC04A8D /* Build configuration list for PBXNativeTarget "Pods-Tests-DWSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D813532CBC25C5E708C13A21 /* Debug */,
-				29E0148177B2074B3048CE66 /* Release */,
+				599B996FCEF27A66FD6A9CE9 /* Debug */,
+				29532E39A9981C2CF9BA1E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A44C4EDE1B690620C80E1658 /* Build configuration list for PBXNativeTarget "Pods-Tests-DWSwitch" */ = {
+		F4F938E2A6F5BF7683DFBEF9 /* Build configuration list for PBXNativeTarget "Pods-DWSwitch-DWSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B58E1DB9BFDBB4F5F35183FB /* Debug */,
-				4ACA405C39E7EAE4AAF194F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB5C490083A95B6F15832A9E /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				715DC91993AC958337678BAE /* Debug */,
-				800C3D9A449A36B8C9946ACE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD0884A7175D97D84690B609 /* Build configuration list for PBXNativeTarget "Pods-DWSwitch-DWSwitch-DWSwitch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B83FE45EF5AA491D69C7CC7A /* Debug */,
-				751364ABADF0194B8659478E /* Release */,
+				FC3C32CE603F5FA7F684CFEF /* Debug */,
+				AC78A93A63BEA53EA1254EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 131D13E55C8344D6F5197B88 /* Project object */;
+	rootObject = A4F87434670A81BCCEEA4E43 /* Project object */;
 }

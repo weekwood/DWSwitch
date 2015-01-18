@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import DWSwitch
+
 
 class ViewController: UIViewController {
         

@@ -9,14 +9,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "DWSwitch"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of DWSwitch."
-  s.description      = <<-DESC
-                       An optional longer description of DWSwitch
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.version          = "0.0.1"
+  s.summary          = "An animation switch."
   s.homepage         = "https://github.com/weekwood/DWSwitch"
   s.license          = 'MIT'
   s.author           = { "di wu" => "di.wu@me.com" }
@@ -26,9 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'DWSwitch' => ['Pod/Assets/*.png']
-  }
+  s.resources = ['Pod/Assets/*.png']
 
   s.frameworks = 'UIKit', 'QuartzCore'
 

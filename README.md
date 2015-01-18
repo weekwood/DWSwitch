@@ -1,6 +1,5 @@
 # DWSwitch
 
-[![CI Status](http://img.shields.io/travis/di wu/DWSwitch.svg?style=flat)](https://travis-ci.org/di wu/DWSwitch)
 [![Version](https://img.shields.io/cocoapods/v/DWSwitch.svg?style=flat)](http://cocoadocs.org/docsets/DWSwitch)
 [![License](https://img.shields.io/cocoapods/l/DWSwitch.svg?style=flat)](http://cocoadocs.org/docsets/DWSwitch)
 [![Platform](https://img.shields.io/cocoapods/p/DWSwitch.svg?style=flat)](http://cocoadocs.org/docsets/DWSwitch)

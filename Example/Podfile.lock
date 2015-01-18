@@ -1,5 +1,5 @@
 PODS:
-  - DWSwitch (0.1.0)
+  - DWSwitch (0.0.1)
 
 DEPENDENCIES:
   - DWSwitch (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DWSwitch: 4fd3301d5dad6bc998b9dbd38e44aea3af1c10b3
+  DWSwitch: 525185f22cdc59aedbcf42dc6d7952ba1d375d31
 
 COCOAPODS: 0.36.0.beta.1
